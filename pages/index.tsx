@@ -24,7 +24,7 @@ export default function Home() {
               alt="image"
               className="xs:rounded-t-lg mix-blend-multiply opacity-75 xl:rounded-r-lg relative z-10"
             ></Image>
-            <div className="bg-[#ab5cdb]  w-full  h-full absolute top-0"></div>
+            <div className="bg-[#ab5cdb]  w-full  h-full absolute xl:rounded-r-lg top-0"></div>
           </div>
           <div className="flex flex-col xl:w-[52%] items-center xl:text-left justify-center xl:justify-between gap-6  p-8 text-center  text-[#FFFFFF] xl:py-20 xl:pl-20 xl:pr-32 ">
             <h1 className="text-3xl font-[Inter] font-bold xl:text-4xl">
