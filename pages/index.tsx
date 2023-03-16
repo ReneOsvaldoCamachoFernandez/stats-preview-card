@@ -22,7 +22,7 @@ export default function Home() {
             <Image
               src={HeaderImage}
               alt="image"
-              className="xs:rounded-t-lg mix-blend-multiply opacity-75 xl:rounded-r-lg relative z-10"
+              className="xs:rounded-t-lg h-full w-full mix-blend-multiply opacity-75 xl:rounded-r-lg relative z-10"
             ></Image>
             <div className="bg-[#ab5cdb]  w-full  h-full absolute xl:rounded-r-lg top-0"></div>
           </div>
