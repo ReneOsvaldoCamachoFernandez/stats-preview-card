@@ -18,13 +18,13 @@ export default function Home() {
       </Head>
       <main className="flex items-center justify-center xl:h-full bg-[#090B1A] p-6 py-20">
         <div className="bg-[#1B1938] flex rounded-lg  flex-col xl:justify-between xl:max-w-[1110px] xl:flex-row-reverse ">
-          <div className="relative xl:w-[48%] ">
+          <div className="relative xl:w-[48%]  ">
             <Image
               src={HeaderImage}
               alt="image"
-              className="xs:rounded-t-lg  xl:rounded-r-lg w-full h-full"
+              className="xs:rounded-t-lg mix-blend-multiply opacity-75 xl:rounded-r-lg relative z-10"
             ></Image>
-            <div className="bg-[#AA5CDB] mix-blend-multiply w-full  h-full absolute top-0"></div>
+            <div className="bg-[#ab5cdb]  w-full  h-full absolute top-0"></div>
           </div>
           <div className="flex flex-col xl:w-[52%] items-center xl:text-left justify-center xl:justify-between gap-6  p-8 text-center  text-[#FFFFFF] xl:py-20 xl:pl-20 xl:pr-32 ">
             <h1 className="text-3xl font-[Inter] font-bold xl:text-4xl">
